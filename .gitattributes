@@ -1,0 +1,3 @@
+# 换行符统一为 LF：Windows 上 core.autocrlf=true 会在下次检出时把整仓文件
+# 改成 CRLF，产生全量 diff。仓库新建时固定下来，避免以后反复出现换行噪音。
+* text=auto eol=lf
