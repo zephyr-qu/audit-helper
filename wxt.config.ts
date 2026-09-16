@@ -12,8 +12,7 @@ export default defineConfig({
       },
     },
   }),
-  // 本机 Chrome 为便携版（D:\green\Chrome\App\chrome.exe），chrome-launcher 检测不到，
-  // 且 Chrome 137+ 已收紧自动加载扩展的能力，故 dev 时只启动 dev server，
+  // Chrome 137+ 已收紧自动加载扩展的能力，dev 时只启动 dev server，
   // 浏览器中手动加载 .output/chrome-mv3-dev 即可（需自动打开时删掉这段）。
   webExt: {
     disabled: true,
